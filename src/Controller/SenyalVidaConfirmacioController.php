@@ -9,7 +9,7 @@ use Drupal\senyal_vida\Utility\SqlQueries;
 use Civi\Api4\Activity;
 use Drupal\Core\Controller\ControllerBase;
 
-const SIGN_OF_LIFE_ACTIVITY_TYPE = 3;
+const SIGN_OF_LIFE_ACTIVITY_TYPE = 35;
 const ACTIVITY_SUBJECT = "Senyal de Vida";
 
 class SenyalVidaConfirmacioController extends ControllerBase{
