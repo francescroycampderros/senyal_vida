@@ -1,0 +1,35 @@
+{# [module]/templates/my-template-2.html.twig #}
+
+{% if created == true %}
+ 
+    <h3>{{ 'Thank you for your feedback!'|trans }}</h3>
+
+    <p id="myParagraph">{{ 'We are going to continue sending you the booklets to'|trans }}:</p> 
+
+    <ul>
+        <li><strong>{{ 'Address'|trans }}: {{ address }}</strong></li>
+        <li><strong>{{ 'City'|trans }}: {{city}}</strong></li>
+        <li><strong>{{ 'Postal code'|trans }}: {{postal_code}}</strong></li>
+        <li><strong>{{ 'Country'|trans }}: {{country|trans }}</strong></li>
+    </ul>
+    <!---->
+
+    <p> {{ 'If the address is not correct, send an email to'|trans }} <a style="color:#D52027" href="mailto:quaderns@fespinal.com">quaderns@fespinal.com</a></p>
+    <p> {{ 'You can also support us here'|trans }}: <a style="color:#D52027" href={{ '"donatives"'|trans }}>{{ 'Make a donation!'|trans }}</a></p>
+
+{% else %}
+
+    <p>{{ 'Something went wrong. Send an email to'|trans }} <a style="color:#D52027" href="mailto:quaderns@fespinal.com">quaderns@fespinal.com</a></p>
+
+{% endif %}
+
+<script>
+    const paragraph = document.querySelector('#myParagraph');
+
+    if(paragraph !== null){
+        paragraph.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+    }
+</script>

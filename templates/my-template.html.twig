@@ -1,0 +1,35 @@
+{# [module]/templates/my-template.html.twig #}
+
+{{ attach_library('senyal_vida/senyal_vida.style') }}
+
+{% if found == true %}
+ 
+    <p id="myParagraph">{{ 'We are going to continue sending you the booklets to'|trans }}:</p> 
+    
+    <ul>
+        <li><strong>{{ 'Address'|trans }}: {{ address }}</strong></li>
+        <li><strong>{{ 'City'|trans }}: {{city}}</strong></li>
+        <li><strong>{{ 'Postal code'|trans }}: {{postal_code}}</strong></li>
+        <li><strong>{{ 'Country'|trans }}: {{country|trans }}</strong></li>
+    </ul>
+    <a class="my-link submit-button" href="senyal_vida_confirmacio?cid={{ cid }}&hash={{ hash }}">{{ 'Click here if you want to continue receiving booklets at this address!'|trans }}</a>
+
+    <p> {{ 'If the address is not correct, send an email to'|trans }} <a style="color:#D52027" href="mailto:quaderns@fespinal.com">quaderns@fespinal.com</a></p>
+    <p> {{ 'You can also support us here'|trans }}: <a style="color:#D52027" href={{ '"donatives"'|trans }}>{{ 'Make a donation!'|trans }}</a></p>
+	
+{% else %}
+
+    <p>{{ 'Something went wrong. Send an email to'|trans }} <a style="color:#D52027" href="mailto:quaderns@fespinal.com">quaderns@fespinal.com</a></p>
+
+{% endif %}
+
+<script>
+    const paragraph = document.querySelector('#myParagraph');
+
+    if(paragraph !== null){
+        paragraph.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+    }
+</script>

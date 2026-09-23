@@ -1,0 +1,5 @@
+senyal_vida.style:
+  version: 1.x
+  css:
+    theme:
+      css/senyal_vida.style.css: {}

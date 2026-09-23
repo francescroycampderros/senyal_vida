@@ -1,0 +1,19 @@
+senyal.content:
+  path: '/senyal_vida'
+  defaults:
+    _controller: '\Drupal\senyal_vida\Controller\SenyalVidaController::content'
+    _title: 'Senyal Vida'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+
+senyal.confcontent:
+  path: '/senyal_vida_confirmacio'
+  defaults:
+    _controller: '\Drupal\senyal_vida\Controller\SenyalVidaConfirmacioController::content'
+    _title: 'Senyal Vida'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'

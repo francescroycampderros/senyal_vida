@@ -1,0 +1,43 @@
+.submit-button {
+  margin-left:60px; 
+  margin-right:60px;
+  margin-top:60px;
+  margin-bottom:30px;
+  display: flex;
+  justify-content: center;
+  padding: 14px 24px;
+  background-color: #D52027;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #8a1b1b;
+}
+
+.submit-button:active {
+  background-color: #7a1818;
+}
+
+.submit-button:focus {
+  outline: 2px solid #d9534f;
+  outline-offset: 2px;
+}
+
+
+.my-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.my-link:hover,
+.my-link:visited,
+.my-link:active {
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+name: Senyal Vida Module
+description: Creates a CiviCRM activity 'sign of life'
+package: Custom
+type: module
+version: 1.0
+core_version_requirement: ">=8"
+
+# Interface translation configuration
+'interface translation project': senyal_vida
+'interface translation server pattern': 'modules/custom/senyal_vida/translations/%project.%language.po'

@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function senyal_vida_theme($existing, $type, $theme, $path) {
+  return [
+    'my_template' => [
+      'variables' => [
+        'address' => NULL,
+        'postal_code' => NULL,
+        'city' => NULL,
+        'country' => NULL,
+        'found' => NULL,
+        'cid' => NULL,
+        'hash' => NULL,
+      ],
+    ],
+    'my_template-2' => [
+      'variables' => [
+        'address' => NULL,
+        'postal_code' => NULL,
+        'city' => NULL,
+        'country' => NULL,
+        'created' => NULL,
+      ],
+    ],
+  ];
+}
