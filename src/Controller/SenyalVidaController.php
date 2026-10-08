@@ -6,6 +6,7 @@
 namespace Drupal\senyal_vida\Controller;
 
 use Drupal\senyal_vida\Utility\SqlQueries;
+use Drupal\senyal_vida\Form\SenyalVidaForm;
 use Drupal\Core\Controller\ControllerBase;
 
 class SenyalVidaController extends ControllerBase{
@@ -38,6 +39,8 @@ class SenyalVidaController extends ControllerBase{
       $country .= $contact['country.name'];
     }
 
+    $form = $found ? \Drupal::formBuilder()->getForm(SenyalVidaForm::class, $cid, $hash) : NULL;
+
     return [
       '#theme' => 'my_template',
       '#address' => $address,
@@ -45,8 +48,7 @@ class SenyalVidaController extends ControllerBase{
       '#postal_code' => $postal_code,
       '#country' => $country,
       '#found' => $found,
-      '#cid' => $cid,
-      '#hash' => $hash,
+      '#form' => $form,
     ];
   }
 }

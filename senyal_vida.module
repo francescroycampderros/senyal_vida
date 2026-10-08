@@ -12,8 +12,7 @@ function senyal_vida_theme($existing, $type, $theme, $path) {
         'city' => NULL,
         'country' => NULL,
         'found' => NULL,
-        'cid' => NULL,
-        'hash' => NULL,
+        'form' => NULL,
       ],
     ],
     'my_template-2' => [
