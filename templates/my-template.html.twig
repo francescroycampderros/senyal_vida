@@ -12,7 +12,9 @@
         <li><strong>{{ 'Postal code'|trans }}: {{postal_code}}</strong></li>
         <li><strong>{{ 'Country'|trans }}: {{country|trans }}</strong></li>
     </ul>
-    {{ form }}
+    <div style="text-align: center;">
+        {{ form }}
+    </div>
 
     <p> {{ 'If the address is not correct, send an email to'|trans }} <a style="color:#D52027" href="mailto:quaderns@fespinal.com">quaderns@fespinal.com</a></p>
     <p> {{ 'You can also support us here'|trans }}: <a style="color:#D52027" href={{ '"donatives"'|trans }}>{{ 'Make a donation!'|trans }}</a></p>
