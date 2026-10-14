@@ -24,7 +24,7 @@ msgstr "País"
 msgid "Click here if you want to continue receiving booklets at this address!"
 msgstr "¡Haga clic aquí si desea seguir recibiendo los cuadernos en esta dirección!"
 
-msgid "If the address is not correct, send an email to"
+msgid "If the address is not correct or you want to send us some comments, send an email to"
 msgstr "Si la dirección no es correcta o nos quieres hacer llegar algún comentario, envíe un correo electrónico a"
 
 msgid "Something went wrong. Send an email to"
