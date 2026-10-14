@@ -25,7 +25,7 @@ msgid "Click here if you want to continue receiving booklets at this address!"
 msgstr "Feu clic aquí si voleu continuar rebent els fullets en aquesta adreça!"
 
 msgid "If the address is not correct, send an email to"
-msgstr "Si l'adreça no és correcta, envia un correu a"
+msgstr "Si l'adreça no és correcta o ens vols fer algun comentari, envia un correu a"
 
 msgid "Something went wrong. Send an email to"
 msgstr "Alguna cosa ha anat malament. Envieu un correu electrònic a"
