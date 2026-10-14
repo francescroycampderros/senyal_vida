@@ -6,41 +6,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-msgid 'Address'
-msgstr 'Dirección'
+msgid "Address"
+msgstr "Dirección"
 
-msgid 'We are going to continue sending you the booklets to'
-msgstr 'Continuaremos enviándole los cuadernos a'
+msgid "We are going to continue sending you the booklets to"
+msgstr "Continuaremos enviándole los cuadernos a"
 
-msgid 'City'
-msgstr 'Ciudad'
+msgid "City"
+msgstr "Ciudad"
 
-msgid 'Postal code'
-msgstr 'Código postal'
+msgid "Postal code"
+msgstr "Código postal"
 
-msgid 'Country'
-msgstr 'País'
+msgid "Country"
+msgstr "País"
 
-msgid 'Click here if you want to continue receiving booklets at this address!'
-msgstr '¡Haga clic aquí si desea seguir recibiendo los cuadernos en esta dirección!'
+msgid "Click here if you want to continue receiving booklets at this address!"
+msgstr "¡Haga clic aquí si desea seguir recibiendo los cuadernos en esta dirección!"
 
-msgid 'If the address is not correct, send an email to'
-msgstr 'Si la dirección no es correcta, envíe un correo electrónico a'
+msgid "If the address is not correct, send an email to"
+msgstr "Si la dirección no es correcta, envíe un correo electrónico a"
 
-msgid 'Something went wrong. Send an email to'
-msgstr 'Algo ha salido mal. Envíe un correo electrónico a'
+msgid "Something went wrong. Send an email to"
+msgstr "Algo ha salido mal. Envíe un correo electrónico a"
 
-msgid 'You can also support us here'
-msgstr 'También nos puedes ayudar aquí'
+msgid "You can also support us here"
+msgstr "También nos puedes ayudar aquí"
 
-msgid 'Make a donation!'
-msgstr '¡Haz un donativo!'
+msgid "Make a donation!"
+msgstr "¡Haz un donativo!"
 
-msgid '"donatives"'
-msgstr '"donativos"'
+msgid "'donatives'"
+msgstr "'donativos'"
 
-msgid 'Thank you for your feedback!'
-msgstr '¡Gracias por tu respuesta!'
+msgid "Thank you for your feedback!"
+msgstr "¡Gracias por tu respuesta!"
 
 msgid "Afghanistan"
 msgstr "Afganistán"

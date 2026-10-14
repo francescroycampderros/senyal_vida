@@ -6,41 +6,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-msgid 'Address'
-msgstr 'Direcció'
+msgid "Address"
+msgstr "Direcció"
 
-msgid 'We are going to continue sending you the booklets to'
-msgstr 'Continuarem enviant els quaderns a'
+msgid "We are going to continue sending you the booklets to"
+msgstr "Continuarem enviant els quaderns a"
 
-msgid 'City'
-msgstr 'Ciutat'
+msgid "City"
+msgstr "Ciutat"
 
-msgid 'Postal code'
-msgstr 'Codi postal'
+msgid "Postal code"
+msgstr "Codi postal"
 
-msgid 'Country'
-msgstr 'País'
+msgid "Country"
+msgstr "País"
 
-msgid 'Click here if you want to continue receiving booklets at this address!'
-msgstr 'Feu clic aquí si voleu continuar rebent els fullets en aquesta adreça!'
+msgid "Click here if you want to continue receiving booklets at this address!"
+msgstr "Feu clic aquí si voleu continuar rebent els fullets en aquesta adreça!"
 
-msgid 'If the address is not correct, send an email to'
-msgstr "Si l'adreça no és correcte, envia un correu a"
+msgid "If the address is not correct, send an email to"
+msgstr "Si l'adreça no és correcta, envia un correu a"
 
-msgid 'Something went wrong. Send an email to'
-msgstr 'Alguna cosa ha anat malament. Envieu un correu electrònic a'
+msgid "Something went wrong. Send an email to"
+msgstr "Alguna cosa ha anat malament. Envieu un correu electrònic a"
 
-msgid 'You can also support us here'
-msgstr 'També pot fer-nos suport aquí'
+msgid "You can also support us here"
+msgstr "També pot fer-nos suport aquí"
 
-msgid 'Make a donation!'
-msgstr 'Fes un donatiu!'
+msgid "Make a donation!"
+msgstr "Fes un donatiu!"
 
-msgid '"donatives"'
-msgstr '"donatius"'
+msgid "'donatives'"
+msgstr "'donatius'"
 
-msgid 'Thank you for your feedback!'
-msgstr 'Gracies per la teva resposta!'
+msgid "Thank you for your feedback!"
+msgstr "Gràcies per la teva resposta!"
 
 msgid "Afghanistan"
 msgstr "Afganistan"

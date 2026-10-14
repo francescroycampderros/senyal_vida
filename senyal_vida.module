@@ -26,3 +26,8 @@ function senyal_vida_theme($existing, $type, $theme, $path) {
     ],
   ];
 }
+
+function senyal_vida_locale_translation_projects_alter(&$projects) {
+  $path = \Drupal::service('extension.list.module')->getPath('senyal_vida');
+  $projects['senyal_vida']['info']['interface translation server pattern'] = $path . '/translations/%project.%language.po';
+}
