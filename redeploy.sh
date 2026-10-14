@@ -1,5 +1,9 @@
 #!/bin/sh
 
+chmod +x /var/www/francescroy.com/vendor/bin/drush
+chmod +x /var/www/francescroy.com/vendor/drush/drush/drush
+chmod +x /var/www/francescroy.com/vendor/bin/drush.php
+
 php /var/www/francescroy.com/vendor/bin/drush.php un senyal_vida
 php /var/www/francescroy.com/vendor/bin/drush.php en senyal_vida
 php /var/www/francescroy.com/vendor/bin/drush.php cache-rebuild
