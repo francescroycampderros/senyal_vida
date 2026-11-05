@@ -39,8 +39,8 @@ msgstr "¡Haz un donativo!"
 msgid "\"donations\""
 msgstr "\"donativos\""
 
-msgid "Thank you for your feedback!"
-msgstr "¡Gracias por tu respuesta!"
+msgid "Thank you for your feedback! &#127881;"
+msgstr "¡Gracias por tu respuesta! &#127881;"
 
 msgid "Afghanistan"
 msgstr "Afganistán"

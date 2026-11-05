@@ -22,7 +22,7 @@ msgid "Country"
 msgstr "País"
 
 msgid "Click here if you want to continue receiving booklets at this address!"
-msgstr "Feu clic aquí si voleu continuar rebent els fullets en aquesta adreça!"
+msgstr "Feu clic aquí si voleu continuar rebent els quaderns en aquesta adreça!"
 
 msgid "If the address is not correct or you want to send us some comments, send an email to"
 msgstr "Si l'adreça no és correcta o ens vols fer algun comentari, envia un correu a"
@@ -39,8 +39,8 @@ msgstr "Fes un donatiu!"
 msgid "\"donations\""
 msgstr "\"donatius\""
 
-msgid "Thank you for your feedback!"
-msgstr "Gràcies per la teva resposta!"
+msgid "Thank you for your feedback! &#127881;"
+msgstr "Gràcies per la teva resposta! &#127881;"
 
 msgid "Afghanistan"
 msgstr "Afganistan"

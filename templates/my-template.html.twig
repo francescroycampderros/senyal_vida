@@ -4,7 +4,7 @@
 
 {% if found == true %}
  
-    <p id="myParagraph">{{ 'We are going to continue sending you the booklets to'|trans }}:</p> 
+    <h1 id="myParagraph">{{ 'We are going to continue sending you the booklets to'|trans }}:</h1> 
     
     <ul>
         <li><strong>{{ 'Address'|trans }}: {{ address }}</strong></li>
@@ -12,7 +12,7 @@
         <li><strong>{{ 'Postal code'|trans }}: {{postal_code}}</strong></li>
         <li><strong>{{ 'Country'|trans }}: {{country|trans }}</strong></li>
     </ul>
-    <div style="text-align: center; margin-bottom: 30px">
+    <div style="text-align: center; margin-bottom: 30px" class="senyal-vida-form">
         {{ form }}
     </div>
 
