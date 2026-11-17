@@ -25,22 +25,22 @@ msgid "Click here if you want to continue receiving booklets at this address!"
 msgstr "Feu clic aquí si voleu continuar rebent els quaderns en aquesta adreça!"
 
 msgid "If the address is not correct or you want to send us some comments, send an email to"
-msgstr "Si l'adreça no és correcta o ens vols fer algun comentari, envia un correu a"
+msgstr "Si l'adreça no és correcta o ens voleu fer algun comentari, envieu un correu a"
 
 msgid "Something went wrong. Send an email to"
 msgstr "Alguna cosa ha anat malament. Envieu un correu electrònic a"
 
 msgid "You can also support us here"
-msgstr "També pot fer-nos suport aquí"
+msgstr "També podeu donar-nos suport aquí"
 
 msgid "Make a donation!"
-msgstr "Fes un donatiu!"
+msgstr "Feu un donatiu!"
 
 msgid "\"donations\""
 msgstr "\"donatius\""
 
-msgid "Thank you for your feedback! &#127881;"
-msgstr "Gràcies per la teva resposta! &#127881;"
+msgid "Thank you for your feedback!"
+msgstr "Gràcies per la vostra resposta!"
 
 msgid "Afghanistan"
 msgstr "Afganistan"

@@ -40,7 +40,6 @@ class SenyalVidaForm extends FormBase{
     $form['actions']['submit'] = [
       '#type' => 'submit',
       '#value' => $this->t('Click here if you want to continue receiving booklets at this address!'),
-      '#attributes' => ['class' => ['my-link', 'submit-button']],
     ];
 
     return $form;
